@@ -155,7 +155,7 @@ export default function Home() {
                     className="gap-2 transition-all duration-300 hover:scale-105 bg-emerald-600 hover:bg-emerald-700"
                     asChild
                   >
-                    <a href="/resume.pdf" download="Thonduru_Durgaprasad_Reddy_Resume.pdf">
+                    <a href="/Durgaprasad_2200030374.pdf" download="Thonduru_Durgaprasad_Reddy_Resume.pdf">
                       Download Resume <Download size={16} />
                     </a>
                   </Button>
