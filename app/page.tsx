@@ -225,7 +225,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col items-end">
                       <p className="text-gray-400">2020 - 2022</p>
-                      <p className="text-purple-400 font-medium">CGPA: 6.0</p>
+                      <p className="text-purple-400 font-medium"></p>
                     </div>
                   </div>
                 </CardContent>
@@ -251,7 +251,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col items-end">
                       <p className="text-gray-400">2019 - 2020</p>
-                      <p className="text-amber-400 font-medium">CGPA: 8.7</p>
+                      <p className="text-amber-400 font-medium"></p>
                     </div>
                   </div>
                 </CardContent>
@@ -344,12 +344,12 @@ export default function Home() {
               </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
-                  <SkillBar skill="Python" percentage={80} color="green" />
-                  <SkillBar skill="Java" percentage={75} color="orange" />
+                  <SkillBar skill="Python" percentage={60} color="green" />
+                  <SkillBar skill="Java" percentage={40} color="orange" />
                 </div>
                 <div className="space-y-6">
-                  <SkillBar skill="C" percentage={70} color="purple" />
-                  <SkillBar skill="SQL" percentage={80} color="blue" />
+                  <SkillBar skill="C" percentage={50} color="purple" />
+                  <SkillBar skill="SQL" percentage={50} color="blue" />
                 </div>
               </div>
             </div>
