@@ -361,14 +361,14 @@ export default function Home() {
               </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
-                  <SkillBar skill="JavaScript" percentage={85} color="blue" />
-                  <SkillBar skill="HTML/CSS" percentage={90} color="purple" />
-                  <SkillBar skill="Bootstrap" percentage={85} color="purple" />
+                  <SkillBar skill="JavaScript" percentage={50} color="blue" />
+                  <SkillBar skill="HTML/CSS" percentage={50} color="purple" />
+                  <SkillBar skill="Bootstrap" percentage={50} color="purple" />
                 </div>
                 <div className="space-y-6">
-                  <SkillBar skill="React.js" percentage={85} color="blue" />
-                  <SkillBar skill="Node.js" percentage={80} color="green" />
-                  <SkillBar skill="Spring Boot" percentage={75} color="green" />
+                  <SkillBar skill="React.js" percentage={55} color="blue" />
+                  <SkillBar skill="Node.js" percentage={40} color="green" />
+                  <SkillBar skill="Spring Boot" percentage={70} color="green" />
                 </div>
               </div>
             </div>
@@ -397,10 +397,10 @@ export default function Home() {
               </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
-                  <SkillBar skill="MongoDB" percentage={75} color="green" />
+                  <SkillBar skill="MongoDB" percentage={50} color="green" />
                 </div>
                 <div className="space-y-6">
-                  <SkillBar skill="MySQL" percentage={80} color="blue" />
+                  <SkillBar skill="MySQL" percentage={50} color="blue" />
                 </div>
               </div>
             </div>
@@ -412,12 +412,12 @@ export default function Home() {
               </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
-                  <SkillBar skill="Problem Solving" percentage={85} color="blue" />
-                  <SkillBar skill="Self-learning" percentage={90} color="green" />
+                  <SkillBar skill="Problem Solving" percentage={70} color="blue" />
+                  <SkillBar skill="Self-learning" percentage={85} color="green" />
                 </div>
                 <div className="space-y-6">
-                  <SkillBar skill="Presentation" percentage={80} color="purple" />
-                  <SkillBar skill="Time Management" percentage={85} color="red" />
+                  <SkillBar skill="Presentation" percentage={60} color="purple" />
+                  <SkillBar skill="Time Management" percentage={80} color="red" />
                 </div>
               </div>
             </div>
